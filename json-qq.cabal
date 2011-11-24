@@ -22,7 +22,7 @@ cabal-version:       >=1.6
 
 library
   hs-source-dirs: src
-  exposed-modules: JSON.QQ
+  exposed-modules: Data.JSON.QQ
   build-depends: base >= 4.3 && < 5, parsec >= 2 && < 3, template-haskell, haskell-src-meta >= 0.1.0
 
 source-repository head

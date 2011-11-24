@@ -1,13 +1,13 @@
 {-# OPTIONS_GHC -XTemplateHaskell -XQuasiQuotes -XUndecidableInstances #-}
 
--- | This package expose the parser @sonParser@.
+-- | This package expose the parser @jsonParser@.
 --
 -- Only developers that develop new json quasiquoters should use this library!
 --
 -- See @text-json-qq@ and @aeson-qq@ for usage.
 --    
 
-module JSON.QQ (
+module Data.JSON.QQ (
   JsonValue (..),
   HashKey (..),
   parsedJson
